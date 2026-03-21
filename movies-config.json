@@ -19,7 +19,7 @@
       "title": "Incendies",
       "year": 2011,
       "director": "Denis Villeneuve",
-      "poster": "https://pics.filmaffinity.com/Incendies-245390654-large.jpg",
+      "poster": "carteles/incendies.jpg",
       "genres": ["Drama", "Thriller", "Cine de autor"],
       "date_watched": "2026-01-24",
       "scores": {
@@ -36,7 +36,7 @@
       "title": "Bichos",
       "year": 1998,
       "director": "John Lasseter, Andrew Stanton",
-      "poster": "https://static.wikia.nocookie.net/doblaje/images/8/89/Bugslife_full.jpg/revision/latest?cb=20250820002122&path-prefix=es",
+      "poster": "carteles/bichos.jpg",
       "genres": ["Animación", "Aventuras", "Propaganda Anti-capitalista"],
       "date_watched": "2026-02-07",
       "scores": {
@@ -56,7 +56,7 @@
       "title": "Fahrenheit 451",
       "year": 1966,
       "director": "François Truffaut",
-      "poster": "https://media.posterlounge.com/img/products/350000/347017/347017_poster.jpg",
+      "poster": "carteles/fahrenheit451.jpg",
       "genres": ["Drama", "Distopía"],
       "date_watched": "2026-03-14",
       "scores": {
@@ -74,7 +74,7 @@
       "title": "Looper",
       "year": 2012,
       "director": "Rian Johnson",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZDIyNzQ2NmUtZjg3MC00M2E0LWJjNGQtZDQ4ODZkMWY0ZTcwXkEyXkFqcGc@._V1_.jpg",
+      "poster": "carteles/looper.jpg",
       "genres": ["Sci-Fi", "Viajes en el tiempo", "Distopía"],
       "date_watched": "2026-03-20",
       "scores": {
