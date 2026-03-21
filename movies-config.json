@@ -1,0 +1,89 @@
+{
+  "group_name": "Cinema Chorizox",
+  "members": [
+    "Alvaro",
+    "Brendan",
+    "Dani",
+    "Gabi",
+    "Karla",
+    "Luison",
+    "Marcos",
+    "Montse",
+    "Pablo",
+    "Sarai",
+    "Saul",
+    "Sergio"
+  ],
+  "movies": [
+    {
+      "title": "Incendies",
+      "year": 2011,
+      "director": "Denis Villeneuve",
+      "poster": "https://pics.filmaffinity.com/Incendies-245390654-large.jpg",
+      "genres": ["Drama", "Thriller", "Cine de autor"],
+      "date_watched": "2026-01-24",
+      "scores": {
+        "Sergio": 6,
+        "Alvaro": 8,
+        "Karla": 8,
+        "Dani": 8,
+        "Marcos": 9,
+        "Pablo": 7,
+        "Sarai": 7
+      }
+    },
+    {
+      "title": "Bichos",
+      "year": 1998,
+      "director": "John Lasseter, Andrew Stanton",
+      "poster": "https://static.wikia.nocookie.net/doblaje/images/8/89/Bugslife_full.jpg/revision/latest?cb=20250820002122&path-prefix=es",
+      "genres": ["Animación", "Aventuras", "Propaganda Anti-capitalista"],
+      "date_watched": "2026-02-07",
+      "scores": {
+        "Saul": 6,
+        "Dani": 7,
+        "Montse": 7,
+        "Sergio": 8,
+        "Pablo": 8,
+        "Sarai": 8,
+        "Alvaro": 9,
+        "Karla": 9,
+        "Marcos": 9,
+        "Gabi": 10
+      }
+    },
+    {
+      "title": "Fahrenheit 451",
+      "year": 1966,
+      "director": "François Truffaut",
+      "poster": "https://media.posterlounge.com/img/products/350000/347017/347017_poster.jpg",
+      "genres": ["Drama", "Distopía"],
+      "date_watched": "2026-03-14",
+      "scores": {
+        "Saul": 6,
+        "Montse": 6,
+        "Dani": 6,
+        "Karla": 7,
+        "Sarai": 8,
+        "Gabi": 8,
+        "Marcos": 8,
+        "Pablo": 8
+      }
+    },
+    {
+      "title": "Looper",
+      "year": 2012,
+      "director": "Rian Johnson",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDIyNzQ2NmUtZjg3MC00M2E0LWJjNGQtZDQ4ODZkMWY0ZTcwXkEyXkFqcGc@._V1_.jpg",
+      "genres": ["Sci-Fi", "Viajes en el tiempo", "Distopía"],
+      "date_watched": "2026-03-20",
+      "scores": {
+        "Pablo": 6,
+        "Dani": 7,
+        "Gabi": 7,
+        "Marcos": 7,
+        "Montse": 8
+      }
+    }
+  ]
+}
