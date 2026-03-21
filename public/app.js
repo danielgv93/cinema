@@ -144,7 +144,7 @@ function renderMovies(movies) {
             return `
       <article class="movie-card" data-idx="${i}" style="animation-delay: ${i * 0.06}s">
         <div class="movie-poster">
-          <img src="${movie.poster}" alt="${movie.title}" loading="lazy" width="300" height="450"
+          <img src="${movie.poster}" srcset="${movie.poster} 300w, ${movie.poster.replace('.jpg', '_full.jpg')} 600w" sizes="(max-width: 600px) 300px, 600px" alt="${movie.title}" loading="lazy" width="300" height="450"
                onerror="this.parentElement.classList.add('poster-skeleton'); this.style.display='none';">
           <div class="rank-badge">#${rank}</div>
         </div>
