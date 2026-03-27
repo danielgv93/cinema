@@ -73,6 +73,19 @@
       }
     },
     {
+      "title": "Rental Family",
+      "year": 2025,
+      "director": "Hikari",
+      "poster": "carteles/looper.jpg",
+      "genres": ["Drama", "Japón"],
+      "date_watched": "2026-03-27",
+      "scores": {
+        "Dani": 8,
+        "Gabi": 8,
+        "Montse": 7
+      }
+    },
+    {
       "title": "Looper",
       "year": 2012,
       "director": "Rian Johnson",
