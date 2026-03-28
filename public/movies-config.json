@@ -77,12 +77,14 @@
       "year": 2025,
       "director": "Hikari",
       "poster": "carteles/rentalFamily.jpg",
-      "genres": ["Drama", "Japón"],
+      "genres": ["Drama", "Comedia", "Japón"],
       "date_watched": "2026-03-27",
       "scores": {
         "Dani": 8,
         "Gabi": 8,
-        "Montse": 7
+        "Marcos": 8,
+        "Montse": 7,
+        "Saul": 7
       }
     },
     {
