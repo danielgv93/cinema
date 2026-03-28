@@ -147,6 +147,9 @@ function renderMovies(movies) {
           <img src="${movie.poster}" srcset="${movie.poster} 300w, ${movie.poster.replace('.jpg', '_full.jpg')} 600w" sizes="(max-width: 600px) 300px, 600px" alt="${movie.title}" loading="lazy" width="300" height="450"
                onerror="this.parentElement.classList.add('poster-skeleton'); this.style.display='none';">
           <div class="rank-badge">#${rank}</div>
+          <button class="poster-zoom-btn" data-full="${movie.poster.replace('.jpg', '_full.jpg')}" data-title="${movie.title}" aria-label="Ver cartel completo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+          </button>
         </div>
         <div class="movie-info">
           <div class="movie-title" title="${movie.title}">${movie.title}</div>
@@ -215,6 +218,19 @@ function renderMovies(movies) {
                     detail.classList.add("open");
                 }
             }
+        });
+    });
+
+    // Poster zoom buttons
+    grid.querySelectorAll(".poster-zoom-btn").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const modal = document.getElementById("posterModal");
+            const img = document.getElementById("posterModalImg");
+            img.src = btn.dataset.full;
+            img.alt = btn.dataset.title;
+            modal.classList.add("open");
+            document.body.style.overflow = "hidden";
         });
     });
 }
@@ -310,3 +326,18 @@ fetch("movies-config.json")
     .catch((err) =>
         console.error("Error loading movies-config.json:", err),
     );
+
+/* ════════════ POSTER MODAL ════════════ */
+
+(function () {
+    const modal = document.getElementById("posterModal");
+    function closeModal() {
+        modal.classList.remove("open");
+        document.body.style.overflow = "";
+    }
+    modal.querySelector(".poster-modal-backdrop").addEventListener("click", closeModal);
+    modal.querySelector(".poster-modal-close").addEventListener("click", closeModal);
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && modal.classList.contains("open")) closeModal();
+    });
+})();
