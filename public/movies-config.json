@@ -106,6 +106,27 @@
         "Sergio": 10,
         "Montse": 8
       }
+    },
+    {
+      "title": "Agora",
+      "year": 2009,
+      "director": "Alejandro Amenabar",
+      "poster": "carteles/agora.jpg",
+      "genres": ["Historico", "Drama", "Feminismo"],
+      "date_watched": "2026-04-10",
+      "scores": {
+        "Karla": 7,
+        "Alvaro": 7,
+        "Pablo": 7,
+        "Gabi": 7,
+        "Montse": 7,
+        "Saul": 7,
+        "Marcos": 7,
+        "Luis": 8,
+        "Brendan": 8,
+        "Dani": 8,
+        "Sergio": 10
+      }
     }
   ]
 }
